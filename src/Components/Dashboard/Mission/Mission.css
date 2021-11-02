@@ -1,0 +1,136 @@
+.MV-wrap{
+    color:white;
+    /* background:url('../../../assests/nytMine.jpg'); */
+    background: url('../../../assests/cryptomin.jpg');
+    /* background: url('../../../assests/drilling.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 3rem;
+}
+.MV-flex{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+.mv-img{
+    height: 75vh;
+    width: 31vw;
+    margin-left: 29vw;
+    margin-top: -4vh;
+
+}
+.Mission{
+    border: 1px solid #ffdb60;
+    width: 27vw;
+    margin-top: 3vh;
+    padding: 1rem;
+}
+.MV_Heading{
+    font-size: 33px;
+    background: #ffdb60;
+    color: black;
+    border-top: 1px solid #ffdb60;
+    border-left: 25px solid;
+    width: 10vw;
+    font-weight: bold;
+    font-family: Aller;
+}
+.MV-content{
+    font-size: larger;
+    color: blanchedalmond;
+
+}
+@media only screen and (min-width:401px) and (max-width:500px){
+    .MV-wrap {
+        background-size: 100% 100%;
+        padding: 1rem;
+    }
+    .mv-img {
+        height: 41vh;
+        width: 26vw;
+        margin-left: 16vw;
+        margin-top: 5vh;
+        display: none;
+    }
+    .MV-flex {
+        display: flex;
+        width: 99%;
+        margin: 0 auto;
+    }
+    .Mission {
+        border: 1px solid #ffdb60;
+        width: 89vw;
+        margin-top: 3vh;
+        padding: 1rem;
+    }
+    .MV_Heading {
+        font-size: 25px;
+        width: 27vw;
+    }
+    .MV-content {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px){
+    .MV-wrap {
+        background-size: 100% 100%;
+        padding: 1rem;
+    }
+    .mv-img {
+        height: 41vh;
+        width: 26vw;
+        margin-left: 16vw;
+        margin-top: 5vh;
+        display: none;
+    }
+    .MV-flex {
+        display: flex;
+        width: 99%;
+        margin: 0 auto;
+    }
+    .Mission {
+        border: 1px solid #ffdb60;
+        width: 89vw;
+        margin-top: 3vh;
+        padding: 1rem;
+    }
+    .MV_Heading {
+        font-size: 25px;
+        width: 32vw;
+    }
+    .MV-content {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .MV-wrap {
+        background-size: 100% 100%;
+        padding: 1rem;
+    }
+    .mv-img {
+        height: 41vh;
+        width: 26vw;
+        margin-left: 16vw;
+        margin-top: 5vh;
+        display: none;
+    }
+    .MV-flex {
+        display: flex;
+        width: 99%;
+        margin: 0 auto;
+    }
+    .Mission {
+        border: 1px solid #ffdb60;
+        width: 89vw;
+        margin-top: 3vh;
+        padding: 1rem;
+    }
+    .MV_Heading {
+        font-size: 25px;
+        width: 36vw;
+    }
+    .MV-content {
+        font-size: 16px;
+    }
+}

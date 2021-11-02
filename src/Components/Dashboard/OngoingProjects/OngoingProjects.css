@@ -1,0 +1,272 @@
+.ongoing-projects-container{
+    display: flex;
+    width: 99%;
+    margin: 0 auto;
+}
+.flip-box {
+    background-color: transparent;
+    width: 45vw;
+    height: 44vh;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin: 2vh 1.5vw;
+  }
+  .box1{
+    background-image: url('../../../assests/hyva8.jpg');
+            background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .box2{
+    background-image: url('../../../assests/hyva6.jpg');
+            background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .box3{
+    background-image: url('../../../assests/Hyva3.jpg');
+            background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+.box4{
+  background-image: url('../../../assests/hyva4.jpg');
+          background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-box-front {
+    background-color: transparent;
+    color: black;
+    border: 0.1rem solid;
+  }
+
+  .flip-box-back {
+    background-color: dimgray;
+    color: white;
+    transform: rotateX(180deg);
+  }
+  .map-img {
+    height: 4rem;
+    width: 4rem;
+    opacity: 0.85;
+    margin-left: 24rem;
+}
+.OngoingProjects-wrapper {
+  /* margin-top: 4rem;
+  margin-bottom: 4rem; */
+  background-image: url('../../../assests/darkbackground.jpg');
+  height: 56vw;
+
+}
+.OngoingProjects-title {
+  font-size: 40px;
+  padding-top: 1vw;
+  font-weight: 500;
+  color: #ffdb60;
+  text-align: center;
+}
+.flip-heading {
+  text-decoration: underline;
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  margin-left: 23rem;
+  margin-top: 2rem;
+  font-size: 2.2rem;
+}
+.loc-des{
+  font-size: 23px;
+    text-align: justify;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    color: #ffdb60;
+    margin-right: 1vw;
+    letter-spacing: 0.01rem;
+    font-family: Aller;
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+  .OngoingProjects-wrapper {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 5vh;
+}
+.OngoingProjects-title {
+  font-size: 29px;
+  margin-left: -4vw;
+  padding-top: 2vw;
+  font-weight: 500;
+  color: #ffdb60;
+}
+.ongoing-projects-container {
+  display: block;
+  width: 99%;
+  margin: 0 auto;
+}
+.flip-box {
+  background-color: transparent;
+  width: 93vw;
+  height: 44vh;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin: 2vh 2.5vw;
+}
+.flip-heading {
+  text-decoration: underline;
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  margin-left: 14rem;
+  margin-top: 1rem;
+  font-size: 23px;
+}
+.map-img {
+  height: 4rem;
+  width: 4rem;
+  opacity: 0.85;
+  margin-left: 14rem;
+}
+.break{
+  display: none;
+}
+.loc-des {
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 3vh;
+  margin-left: 1vw;
+  color: #ffdb60;
+  margin-right: 1vw;
+  letter-spacing: 0.01rem;
+  font-family: Aller;
+}
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+  .OngoingProjects-wrapper {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 5vh;
+}
+.OngoingProjects-title {
+  font-size: 29px;
+  margin-left: -4vw;
+  padding-top: 2vw;
+  font-weight: 500;
+  color: #ffdb60;
+}
+.ongoing-projects-container {
+  display: block;
+  width: 99%;
+  margin: 0 auto;
+}
+.flip-box {
+  background-color: transparent;
+  width: 93vw;
+  height: 44vh;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin: 2vh 2.5vw;
+}
+.flip-heading {
+  text-decoration: underline;
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  font-size: 23px;
+}
+.map-img {
+  height: 4rem;
+  width: 4rem;
+  opacity: 0.85;
+  margin-left: 10rem;
+}
+.break{
+  display: none;
+}
+.loc-des {
+  font-size: 16.9px;
+  text-align: justify;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  color: #ffdb60;
+  margin-right: 1vw;
+  letter-spacing: 0rem;
+  font-family: Aller;
+}
+
+}
+
+@media only screen and (max-width:320px){
+  .OngoingProjects-wrapper {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 5vh;
+}
+.OngoingProjects-title {
+  font-size: 29px;
+  margin-left: -4vw;
+  padding-top: 2vw;
+  font-weight: 500;
+  color: #ffdb60;
+}
+.ongoing-projects-container {
+  display: block;
+  width: 99%;
+  margin: 0 auto;
+}
+.flip-box {
+  background-color: transparent;
+  width: 93vw;
+  height: 44vh;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin: 2vh 2.5vw;
+}
+.flip-heading {
+  text-decoration: underline;
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  font-size: 23px;
+}
+.map-img {
+  height: 4rem;
+  width: 4rem;
+  opacity: 0.85;
+  margin-left: 5rem;
+}
+.break{
+  display: none;
+}
+.loc-des {
+  font-size: 15.9px;
+  text-align: justify;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  color: #ffdb60;
+  margin-right: 1vw;
+  letter-spacing: 0rem;
+  font-family: Aller;
+}
+
+}

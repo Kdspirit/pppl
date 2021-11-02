@@ -1,0 +1,23 @@
+.ic-flex{
+    display: flex;
+    width: 69%;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px grey;
+}
+.ic-wrap{
+    margin-top: -3vh;
+    margin-bottom: 3vh;
+}
+.ic-miniContain{
+    border: 1px solid black;
+    background: white;
+    width: 23vw;
+    height: 15vh;
+    padding: 1rem;
+    text-align: center;
+}
+.ic-miniContain p{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}

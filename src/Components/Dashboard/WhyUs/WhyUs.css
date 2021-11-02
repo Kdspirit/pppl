@@ -1,0 +1,189 @@
+.whyus-flex{
+    display: flex;
+    color:white;
+}
+.whyus-sec1{
+    background: black;
+    padding: 2rem;
+}
+.whySec1p1{
+    border-bottom: 25px solid #ffdb60;
+    border-left: 1px solid transparent;
+    border-right: 21px solid transparent;
+    height: 0px;
+    width: 119px;
+    color: black;
+    font-size: 17px;
+    font-style: italic;
+    font-family: Aller;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0vh;
+    margin-top: 7vh;
+
+}
+.whySec1p2{
+    font-size: 41px;
+    font-weight: 700;
+    font-family: Aller;
+    margin-bottom: -4vh;
+}
+.whySec1p3{
+    font-size: 50px;
+    color: #ffdb60;
+}
+.whySec1p4{
+    font-size: 19px;
+    text-align: justify;
+    word-spacing: 0.01rem;
+    letter-spacing: 0.01rem;
+    font-family: Aller;
+}
+.whyus-sec2{
+    background: #212529;
+    padding: 2rem;
+}
+.whysec2div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+.whySec2p1{
+    background: #ffdb60;
+    width: 5vw;
+    height: 7vh;
+    color: black;
+    padding: 0.2rem;
+    border: 5px solid antiquewhite;
+    font-size: 22px;
+}
+.whySec2p2{
+    text-align: center;
+    font-size: 27px;
+    color: #ffdb60;
+    font-family: Aller;
+    font-weight: 600;
+}
+.whySec2p3{
+    font-size: 19px;
+    text-align: justify;
+    letter-spacing: 0.001rem;
+    font-family: Aller;
+}
+.whyus-sec3{
+    background: black;
+    padding: 2rem;
+}
+
+.whyus-sec4{
+    background: #212529;
+    padding: 2rem;
+}
+
+.whyus-sec2:hover .whySec2p1 {
+    width: 6vw;
+    padding: 0.5rem;
+    height: 9vh;
+}
+.whyus-sec3:hover .whySec2p1 {
+    width: 6vw;
+    padding: 0.5rem;
+    height: 9vh;
+}
+.whyus-sec4:hover .whySec2p1 {
+    width: 6vw;
+    padding: 0.5rem;
+    height: 9vh;
+}
+
+@media only screen and (max-width:500px){
+    .whyus-flex {
+        display: block;
+        /* color: white; */
+    }
+    .whyus-sec1 {
+        background: black;
+        padding: 1rem;
+        width: 100%;
+    }
+    .whySec1p1 {
+        width: 119px;
+        font-size: 17px;
+        margin-top: 1vh;
+    }
+    .whySec1p2 {
+        font-size: 36px;
+        font-weight: 700;
+        font-family: Aller;
+        margin-bottom: -4vh;
+    }
+    .whySec1p3 {
+        font-size: 50px;
+        margin-bottom: 0vw;
+        color: #ffdb60;
+    }
+    .whySec1p4 {
+        font-size: 18px;
+        text-align: justify;
+        word-spacing: 0rem;
+        letter-spacing: 0rem;
+        font-family: Aller;
+    }
+    .whyus-sec2 {
+        background: #212529;
+        padding: 1rem;
+        width: 100%;
+    }
+    .whysec2div {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    .whySec2p1 {
+        background: #ffdb60;
+        width: 15vw;
+        height: 8vh;
+        color: black;
+        padding: 0.2rem;
+        border: 5px solid antiquewhite;
+        font-size: 21px;
+    }
+    .whySec2p2 {
+        text-align: center;
+        font-size: 25px;
+        color: #ffdb60;
+        font-family: Aller;
+        font-weight: 600;
+    }
+    .whySec2p3 {
+        font-size: 18px;
+        text-align: justify;
+        letter-spacing: 0.001rem;
+        font-family: Aller;
+    }
+    .whyus-sec3 {
+        padding: 1rem;
+        width: 100%;
+    }
+    .whyus-sec4 {
+        padding: 1rem;
+        width: 100%;
+    }
+    .whyus-sec3:hover .whySec2p1 {
+        width: 20vw;
+        padding: 0.5rem;
+        height: 9vh;
+    }
+    .whyus-sec2:hover .whySec2p1 {
+        width: 20vw;
+        padding: 0.5rem;
+        height: 9vh;
+    }
+    .whyus-sec4:hover .whySec2p1 {
+        width: 20vw;
+        padding: 0.5rem;
+        height: 9vh;
+    }
+}

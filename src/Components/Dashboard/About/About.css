@@ -1,0 +1,162 @@
+.about-flex{
+    display: flex;
+    width: 87%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+}
+.about-wrap{
+    background: url('../../../assests/bgMinning.jfif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2rem;
+
+}
+.about-turning{
+    color: white;
+    margin-bottom: -3rem;
+    margin-left: 0.5vw;
+    font-size: 34px;
+    font-weight: bold;
+}
+.bigIdeas{
+    /* color:goldenrod; */
+    color: #ffdb60;
+    margin-bottom: -2rem;
+    font-size: 100px;
+    font-weight: 800;
+}
+.great{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 0.5vw;
+
+}
+.personimg{
+    border: 14px solid #ffdb60;
+    margin-left: 20vw;
+    
+}
+.personimg img{
+    margin-top: 2vh;
+    margin-left: -4vw;
+    margin-right: 1vw;
+    height: 37.8vw;
+}
+.container1{
+    padding-top: 6rem;
+}
+.simple-cost{
+    color: #ffdb60;
+    margin-top: 1vh;
+    font-size: 42px;
+    font-weight: 400;
+}
+.about-dash{
+    color: tomato;
+    font-size: 52px;
+    font-weight: 800;
+
+}
+.eff-mining{
+
+}
+.solution{
+
+}
+
+@media only screen and (min-width:321px) and (max-width:500px){
+    .left-sec {
+        margin-top: 3vh;
+        margin-left: -0.5vw;
+    }
+    .about-turning {
+        margin-bottom: -0.8rem;
+        margin-left: 0vw;
+        font-size: 14px;
+    }
+    .bigIdeas {
+        margin-bottom: -0.5rem;
+    font-size: 25px;
+    }
+    .great {
+        font-size: 11px;
+        margin-left: 0.5vw;
+        margin-bottom: -4vw;
+    }
+    .about-dash {
+        font-size: 26px;
+    }
+    .simple-cost {
+        margin-top: 1vh;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .personimg {
+        margin-left: 4vw;
+    }
+    .personimg img {
+        margin-top: 1vh;
+        margin-left: -6vw;
+        margin-right: 1vw;
+        height: 32.8vw;
+    }
+    .about-flex {
+        width: 94%;
+        margin: 0 auto;
+    }
+    .about-wrap{
+        background-size: 100% 100%;
+        
+    
+    }
+}
+
+@media only screen and (max-width:320px){
+    .left-sec {
+        margin-top: 3vh;
+        margin-left: -6.5vw;
+    }
+    .about-turning {
+        margin-bottom: -0.8rem;
+        margin-left: 0vw;
+        font-size: 14px;
+    }
+    .bigIdeas {
+        margin-bottom: -0.5rem;
+    font-size: 25px;
+    }
+    .great {
+        font-size: 11px;
+        margin-left: 0.5vw;
+        margin-bottom: -4vw;
+    }
+    .about-dash {
+        font-size: 26px;
+    }
+    .simple-cost {
+        margin-top: 1vh;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .personimg {
+        margin-left: 4vw;
+    }
+    .personimg img {
+        margin-top: 2vh;
+    margin-left: -7vw;
+    margin-right: 1vw;
+    height: 39.8vw;
+    width: 29vw;
+    }
+    .about-flex {
+        width: 103%;
+        margin: 0 auto;
+    }
+    .about-wrap{
+        background-size: 100% 100%;
+        
+    
+    }
+}

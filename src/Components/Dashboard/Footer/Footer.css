@@ -1,0 +1,134 @@
+.footer-flex1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-icon-img{
+    width: 29vw;
+    height: 45vh;
+}
+.footer-add-image{
+    width: 36vw;
+    height: 45vh;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.footer-wrap{
+    background: #4a5463;
+    padding: 1rem;
+
+}
+.footer-aboutUs{
+    width: 25vw;
+}
+.footer-aboutUsp1{
+    color: #ffdb60;
+    font-size: 36px;
+    font-family: Aller;
+    font-weight: 700;
+}
+.footer-aboutUsp2{
+    color: white;
+    font-size: 19px;
+    text-align: justify;
+}
+.footer-flex2{
+    display: flex;
+    color: #ffdb60;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+
+}
+.footer-fb{
+    height: 7vh;
+    width: 10vw;
+    font-size: 21px;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.facebook-icon{
+    font-size: 35px;
+}
+.footer-loc{
+    width: 28vw;
+    font-size: 20px;
+}
+.footer-call{
+    width: 9vw;
+    height: 8vh;
+    font-size: 18px;
+}
+.footer-mail{
+    font-size: 20px;
+}
+.scrol-top{
+    margin-left: 92vw;
+    background: #ffdb60;
+}
+
+@media only screen and (max-width:500px){
+    .footer-wrap {
+        width: 100%;
+    }
+    .footer-flex1 {
+        display: block;
+    }
+    .footer-flex2 {
+        display: block;
+        margin-top: 3vh;
+    }
+    .footer-icon-img {
+        width: 91vw;
+        height: 44vh;
+    }
+    .footer-aboutUs{
+        width: 90vw;
+    }
+    .footer-aboutUsp1 {
+        margin-top: 1vh;
+        font-size: 32px;
+    }
+    .footer-aboutUsp2{
+        font-size: 18px;
+
+    }
+    .footer-add-image{
+        width: 91vw;
+        height: 48vh;
+        margin-top: 2vh;
+    }
+    .footer-fb {
+        display: flex;
+        height: 7vh;
+        width: 11vw;
+        font-size: 18px;
+    }
+    .footer-call {
+        width: 9vw;
+        height: 8vh;
+        margin-top: -4vh;
+        font-size: 16px;
+        margin-left: 2vw;
+    }
+    .footer-call1{
+        margin-bottom: 0rem !important;
+    display: flex;
+    }
+    .footer-call2{
+        display: flex;
+    }
+    .footer-mail {
+        font-size: 18px;
+        margin-left: 2vw;
+    }
+    .footer-loc {
+        width: 73vw;
+        font-size: 18px;
+        margin-top: -2vh;
+        margin-left: 2vw;
+    }
+    .scrol-top {
+        margin-left: 80vw;
+        background: #ffdb60;
+    }
+}

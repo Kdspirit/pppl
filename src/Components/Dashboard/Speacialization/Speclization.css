@@ -1,0 +1,166 @@
+.spc-wrap{
+    background: url(../../../assests/cutting.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    /* margin-bottom: 5vh; */
+}
+.spc-IB{
+    /* display: inline-block; */
+    margin-left: 47vw;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.spc-IB p{
+    border: 1px solid #ffdb60;
+    color: #ffdb60;
+    box-shadow: 5px 10px 16px #ffdb60;
+    width: 20vw;
+    display: inline-block;
+    height: 20vh;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 5vh;
+    margin-left: 3vw;
+    border-radius: 11px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 7vh;
+    cursor: grab;
+}
+.spc-p1{
+    color: #ffdb60;
+    font-size: 43px;
+    font-weight: inherit;
+    font-family: auto;
+    padding-top: 4rem;
+    margin-left: 61vw;
+}
+.spc-IB p:hover{
+    color: lightgoldenrodyellow;
+    /* transform: matrix(0.866,0.5,-0.5,0.866,0,0); */
+    transform: rotate(1deg);
+    font-size: 23px;
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .spc-wrap {
+        background-size: 100% 100%;
+        /* margin-bottom: 5vh; */
+    }
+    .spc-p1 {
+        font-size: 27px;
+        padding-top: 2rem;
+        margin-left: 28vw;
+    }
+    .spc-IB {
+        /* display: inline-block; */
+        margin-left: 3vw;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+    }
+    .spc-IB p {
+        border: 1px solid #ffdb60;
+        color: #ffdb60;
+        box-shadow: 5px 10px 16px #ffdb60;
+        width: 43vw;
+        display: inline-block;
+        height: 16vh;
+        text-align: center;
+        padding: 0rem;
+        margin-bottom: 5vh;
+        margin-left: 3vw;
+        border-radius: 11px;
+        font-size: 14px;
+        font-weight: 700;
+        padding-top: 6vh;
+        cursor: grab;
+    }
+    .spc-IB p:hover{
+        color: lightgoldenrodyellow;
+        /* transform: matrix(0.866,0.5,-0.5,0.866,0,0); */
+        transform: rotate(0deg);
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .spc-wrap {
+        background-size: 100% 100%;
+        /* margin-bottom: 5vh; */
+    }
+    .spc-p1 {
+        font-size: 27px;
+        padding-top: 2rem;
+        margin-left: 28vw;
+    }
+    .spc-IB {
+        /* display: inline-block; */
+        margin-left: 3vw;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+    }
+    .spc-IB p {
+        border: 1px solid #ffdb60;
+        color: #ffdb60;
+        box-shadow: 5px 10px 16px #ffdb60;
+        width: 43vw;
+        display: inline-block;
+        height: 16vh;
+        text-align: center;
+        padding: 0rem;
+        margin-bottom: 5vh;
+        margin-left: 3vw;
+        border-radius: 11px;
+        font-size: 12px;
+        font-weight: 700;
+        padding-top: 6vh;
+        cursor: grab;
+    }
+    .spc-IB p:hover{
+        color: lightgoldenrodyellow;
+        /* transform: matrix(0.866,0.5,-0.5,0.866,0,0); */
+        transform: rotate(0deg);
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width:320px){
+    .spc-wrap {
+        background-size: 100% 100%;
+        /* margin-bottom: 5vh; */
+    }
+    .spc-p1 {
+        font-size: 27px;
+        padding-top: 2rem;
+        margin-left: 24vw;
+    }
+    .spc-IB {
+        /* display: inline-block; */
+        margin-left: 3vw;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+    }
+    .spc-IB p {
+        border: 1px solid #ffdb60;
+        color: #ffdb60;
+        box-shadow: 5px 10px 16px #ffdb60;
+        width: 79vw;
+        display: inline-block;
+        height: 16vh;
+        text-align: center;
+        padding: 0rem;
+        margin-bottom: 5vh;
+        margin-left: 8vw;
+        border-radius: 11px;
+        font-size: 17px;
+        font-weight: 700;
+        padding-top: 6vh;
+        cursor: grab;
+    }
+    .spc-IB p:hover{
+        color: lightgoldenrodyellow;
+        /* transform: matrix(0.866,0.5,-0.5,0.866,0,0); */
+        transform: rotate(0deg);
+        font-size: 12px;
+    }
+}
